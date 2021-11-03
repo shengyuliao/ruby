@@ -1,7 +1,3 @@
-class Cat 
-  def self.eat
-    p "全部的貓"
-  end
-end
+profile = { name: "kk", age: 18}
 
-Cat.eat
+p profile
