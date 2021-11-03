@@ -9,4 +9,4 @@ p "hello".freeze.object_id
 p "hello".to_sym
 #符號轉字串
 p :hello.to_s
-#不可變的使用符號 可變的使用字串
+#不可變的使用符號, 可變的使用字串
