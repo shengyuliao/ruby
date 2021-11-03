@@ -1,2 +1,11 @@
+module Flyable  
+  def fly 
+    puts "I  Belilve I Can Fly!"
+  end
 
-test git barnch rebase
+end
+class Cat
+   extend Flyable
+end
+
+  Cat.fly
