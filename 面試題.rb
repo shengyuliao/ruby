@@ -13,7 +13,8 @@ end
 class Dog
   extend Cat #因為extend是擴充類別方法 
   include Bird #是外掛一個模組 ,但如果類別本身已經有方法 則會忽略include 
-
+  def initialize()
+  end 
   def say
     'Hey!'
   end
