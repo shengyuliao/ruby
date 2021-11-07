@@ -1,5 +1,5 @@
 
-def fib(n)
+def fib()
   if 
     
   end 
